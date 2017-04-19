@@ -1,3 +1,4 @@
-# My Awesome Book
+# Fitle iOS App Work Flow
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This is a general description for the work flow of Fitle iOS App.
+
