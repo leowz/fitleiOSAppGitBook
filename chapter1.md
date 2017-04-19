@@ -1,8 +1,6 @@
 # Home View Screen
 
-## Description:
-
-
+## 
 
 
 
