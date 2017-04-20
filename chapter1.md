@@ -6,9 +6,9 @@ Home View Screen is the principle stage of the app. It is responsible for presen
 
 ## Overview
 
-Home View Screen is controlled by HomeViewController object in the project and subclass of ViewController\(UIViewController with small changes\). Its content view controller and view is actually populated by ModelViewController which is the subclass of GLKViewController that are responsible for presenting OpenGL ES content. This indicate that the main task for Home View Screen is to present content of 3D model.
+Home View Screen is controlled by HomeViewController object in the project and subclass of ViewController\(UIViewController with small changes\). HomeViewController\`s content view controller and view is actually populated by ModelViewController which is the subclass of GLKViewController that are responsible for presenting OpenGL ES content. This indicate that the main task for Home View Screen is to present content of 3D model.
 
-From the current pipeline of presenting 3D model, there are two modes of interaction:
+From the current pipeline of presenting 3D model, there are two modes of interaction with the avatar in home view screen:
 
 * Basic interactions with the 3D model of avatar
   * Touch interactions including scaling, rotation, moving up or down of avatar.
