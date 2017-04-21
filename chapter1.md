@@ -48,5 +48,15 @@ ModelViewController is a subclass of GLKViewController. And 4 gesture are added 
 
 ### Side Button Panel
 
+There are three buttons in the side button panel. ClothesButton is bind with `clothesAction` which turns the controller into clothes mode.
+
+MeasurementsButton is bind with `measurementsAction` which perform a controller transit to `AvatarMeasurementsViewController`
+
+SettingsButton is bind with `settingsAction` which shows the alert to let the user to confirm to transit  to ChangeInformationViewController to create new avatar.
+
+
+
+
+
 
 
