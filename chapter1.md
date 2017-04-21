@@ -46,5 +46,7 @@ ModelViewController is preset in `viewDidLoad` method. It is initialized from ni
 
 ModelViewController is a subclass of GLKViewController. And 4 gesture are added as a default properties.
 
-Side Button Panel
+### Side Button Panel
+
+
 
