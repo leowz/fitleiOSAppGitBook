@@ -13,19 +13,10 @@ From the current pipeline of presenting 3D model, there are two modes of interac
 * Basic interactions with the 3D model of avatar
   * Touch interactions including scaling, rotation, moving up or down of avatar.
 * Clothes mode
+
   * Clothes bar and side bar are shown.
   * User can chose different garments and try on them on the avatar.
   * In the side bar panel user can access the stretching mode which shows the fitness of any garment on the avatar.
-
-      ![](/assets/Simulator Screen Shot 20 Apr 2017, 10.48.28.jpg)
-
-
-
-
-
-
-
-
 
 
 
