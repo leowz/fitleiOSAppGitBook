@@ -22,21 +22,11 @@ From the current pipeline of presenting 3D model, there are two modes of interac
 
 > ![](/overview.jpg)
 
+Here is a general screen of basic screen. There are generally 4 parts of functional components in this screen. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+1. Navigation Bar 
+   * Navigation Bar in the top composed of title and a button to show side menu bar.
+2. ModelViewController
 
 
 
