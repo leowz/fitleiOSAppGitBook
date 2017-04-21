@@ -18,9 +18,9 @@ From the current pipeline of presenting 3D model, there are two modes of interac
   * User can chose different garments and try on them on the avatar.
   * In the side bar panel user can access the stretching mode which shows the fitness of any garment on the avatar.
 
-## Basic interactions screen
+---
 
-> ![](/overview.jpg)
+> ### ![](/overview.jpg)
 
 Here is a general screen of basic screen. There are generally 4 parts of functional components in this screen.
 
@@ -35,6 +35,12 @@ Here is a general screen of basic screen. There are generally 4 parts of functio
   * Third button to create a new avartar
 * Share button at the left bottom side of the view
   * Launch UIActivityViewController for share events
+
+### NavigationBar
+
+NavBar are preset in `viewDidLoad` method. Title view is set to Fitle title theme and menu button is set to bind `showMenuAction` method in HomeViewController.
+
+### ModelViewController
 
 
 
