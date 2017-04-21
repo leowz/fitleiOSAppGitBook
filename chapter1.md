@@ -42,5 +42,7 @@ NavBar is preset in `viewDidLoad` method. Title view is set to Fitle title theme
 
 ### ModelViewController
 
-ModelViewController is preset in `viewDidLoad` method. It is initialized from nib file and is added as the child view controller of HomeViewController and its view are set to the view of HomeViewController. 
+ModelViewController is preset in `viewDidLoad` method. It is initialized from nib file and is added as the child view controller of HomeViewController and its view are set to the view of HomeViewController.
+
+ModelViewController is a subclass of GLKViewController. And 4 gesture are added as a default properties.
 
