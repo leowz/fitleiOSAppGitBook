@@ -20,6 +20,8 @@ From the current pipeline of presenting 3D model, there are two modes of interac
 
 ---
 
+### Basic interactions
+
 > ### ![](/overview.jpg)
 
 Here is a general screen of basic screen. There are generally 4 parts of functional components in this screen.
@@ -57,6 +59,12 @@ SettingsButton is bind with `settingsAction` which shows the alert to let the us
 ### Share Button
 
 Share Button in the right bottom of the view is bind with `shareAction` which launch the UIActivityViewController.
+
+
+
+
+
+
 
 
 
