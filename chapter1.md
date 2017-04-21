@@ -22,11 +22,21 @@ From the current pipeline of presenting 3D model, there are two modes of interac
 
 > ![](/overview.jpg)
 
-Here is a general screen of basic screen. There are generally 4 parts of functional components in this screen. 
+Here is a general screen of basic screen. There are generally 4 parts of functional components in this screen.
 
-1. Navigation Bar 
-   * Navigation Bar in the top composed of title and a button to show side menu bar.
-2. ModelViewController
+* Navigation Bar 
+  * Navigation Bar in the top composed of title and a button to show side menu bar.
+* ModelViewController
+  * Added as the main view of the HomeViewController itself. 
+  * Touch events like pin,rotate and pan are predefined to interact with the avatar.
+* Side button panel
+  * First button to switch to clothes mode
+  * Second button to create avatar by measurment 
+  * Third button to create a new avartar
+* Share button at the left bottom side of the view
+  * Launch UIActivityViewController for share events
+
+
 
 
 
