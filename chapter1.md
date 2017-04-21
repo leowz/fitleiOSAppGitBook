@@ -44,5 +44,3 @@ NavBar are preset in `viewDidLoad` method. Title view is set to Fitle title them
 
 
 
-
-
