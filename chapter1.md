@@ -54,7 +54,7 @@ MeasurementsButton is bind with `measurementsAction` which perform a controller 
 
 SettingsButton is bind with `settingsAction` which shows the alert to let the user to confirm to transit  to ChangeInformationViewController to create new avatar.
 
-
+### Share Button
 
 
 
