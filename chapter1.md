@@ -64,6 +64,10 @@ Share Button in the right bottom of the view is bind with `shareAction` which la
 
 ### Clothes Mode
 
+> ![](/clothMode.jpg)
+
+
+
 
 
 
