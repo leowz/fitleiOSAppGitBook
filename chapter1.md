@@ -76,5 +76,5 @@ User touch Clothes Button to transit to clothes mode. In clothes mode, side butt
 
 ### Clothes Side Button Panel
 
-
+Takeoff clothes button is bind with `takeoffClothes` 
 
