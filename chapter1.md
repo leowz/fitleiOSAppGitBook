@@ -96,7 +96,11 @@ Buy clothes button work the same way as the buy button in Clothes info view does
 
 **FitleMixpanel.track\("app-start screen home"\)**
 
-In `viewDidAppear()`
+> In `viewDidAppear()`
 
 **FitleMixpanel.track\("app - click on measurment"\)**
+
+> In `measurementsAction()`
+
+
 
