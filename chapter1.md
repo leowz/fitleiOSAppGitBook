@@ -82,5 +82,13 @@ Stretching map button is bind with `strethcingAction`. When user press this butt
 
 > ![](/comfortMode.jpg)
 
+Clothes info button is bind with `clothInfoAction`. When user press this button, Cloth info view will appear on the screen. 
+
+> ![](/clothInfo.jpg)
+
+Buy clothes button work the same way as the buy button in Clothes info view does. They are bind to buyClothAction. When the clothes currently on the avatar has a URL to the product page, then the button will be enabled and by pressing on the button, a browser will be launched and redirect to the product page on the current clothes on the avatar.
+
+
+
 
 
