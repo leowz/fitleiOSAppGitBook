@@ -74,6 +74,8 @@ User touch Clothes Button to transit to clothes mode. In clothes mode, side butt
 
   * Three collection views are included, clothes type collection view, clothes collection view, size collection view.
 
+### Clothes Side Button Panel
+
 
 
 
