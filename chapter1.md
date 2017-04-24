@@ -76,5 +76,11 @@ User touch Clothes Button to transit to clothes mode. In clothes mode, side butt
 
 ### Clothes Side Button Panel
 
-Takeoff clothes button is bind with `takeoffClothes`. When an avatar 
+Takeoff clothes button is bind with `takeoffClothes`. When an avatar have a clothes on, this button is enabled and user can take on and off clothes as long as he does not initiate other actions.
+
+Stretching map button is bind with `strethcingAction`. When user press this button, the avatar clothes will turn into stretching mode which shows user the comfort information of that clothes.
+
+> ![](/comfortMode.jpg)
+
+
 
