@@ -92,7 +92,16 @@ Buy clothes button work the same way as the buy button in Clothes info view does
 
 ### Clothes Panel
 
-There are three sections in the Clothes panel and each section is a customized collection view.
+There are three sections in the Clothes panel and each section is a customized collection view. All the  behaviors of the collection views are delegated in the delegation methods.
+
+* Clothes type collection view
+  * Situated at the bottom of clothes panel, composed of arrow button at the left and clothes type buttons at the right side of arrow button.
+  * When any item cell, which is a certain type of clothes, is pressed by the user, clothes collection view will show up.
+* Clothes collection view
+  * Situated at the middle of clothes panel, with each collection item cell represents a model of clothes.
+  * When item cell is pressed, the avatar will try on this clothes of recommended size. And size collection view will show up on top of clothes collection view.
+* Size collection view
+  * 
 
 ---
 
