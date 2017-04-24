@@ -78,5 +78,3 @@ User touch Clothes Button to transit to clothes mode. In clothes mode, side butt
 
 
 
-
-
