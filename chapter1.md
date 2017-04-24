@@ -70,8 +70,8 @@ User touch Clothes Button to transit to clothes mode. In clothes mode, side butt
 
 * Clothes Side Button Panel
   * For new buttons are enabled. takeoff clothes button, stretching mode button, clothes info button, buy clothes button.
-* Clothes panel
 
+* Clothes panel
   * Three collection views are included, clothes type collection view, clothes collection view, size collection view.
 
 ### Clothes Side Button Panel
@@ -89,6 +89,8 @@ Clothes info button is bind with `clothInfoAction`. When user press this button,
 Buy clothes button work the same way as the buy button in Clothes info view does. They are bind to buyClothAction. When the clothes currently on the avatar has a URL to the product page, then the button will be enabled and by pressing on the button, a browser will be launched and redirect to the product page on the current clothes on the avatar.
 
 ### Clothes Panel
+
+
 
 ---
 
