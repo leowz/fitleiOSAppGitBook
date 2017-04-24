@@ -69,9 +69,11 @@ Share Button in the right bottom of the view is bind with `shareAction` which la
 User touch Clothes Button to transit to clothes mode. In clothes mode, side button panel at right side of the screen changes to clothes side button panel, with new buttons. Also in this mode, clothes panel in the bottom is enabled.
 
 * Clothes Side Button Panel
+
   * For new buttons are enabled. takeoff clothes button, stretching mode button, clothes info button, buy clothes button.
 
 * Clothes panel
+
   * Three collection views are included, clothes type collection view, clothes collection view, size collection view.
 
 ### Clothes Side Button Panel
@@ -90,7 +92,7 @@ Buy clothes button work the same way as the buy button in Clothes info view does
 
 ### Clothes Panel
 
-
+There are three sections in the Clothes panel and each section is a customized collection view.
 
 ---
 
