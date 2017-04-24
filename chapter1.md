@@ -88,7 +88,7 @@ Clothes info button is bind with `clothInfoAction`. When user press this button,
 
 Buy clothes button work the same way as the buy button in Clothes info view does. They are bind to buyClothAction. When the clothes currently on the avatar has a URL to the product page, then the button will be enabled and by pressing on the button, a browser will be launched and redirect to the product page on the current clothes on the avatar.
 
-
+### Clothes Panel
 
 
 
@@ -96,7 +96,7 @@ Buy clothes button work the same way as the buy button in Clothes info view does
 
 ---
 
-## MixPanel Track 
+## MixPanel Track
 
 
 
