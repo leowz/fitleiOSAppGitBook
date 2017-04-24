@@ -101,6 +101,7 @@ There are three sections in the Clothes panel and each section is a customized c
   * Situated at the middle of clothes panel, with each collection item cell represents a model of clothes.
   * When item cell is pressed, the avatar will try on this clothes of recommended size. And size collection view will show up on top of clothes collection view.
 * Size collection view
+
   * Situated at the top of the clothes panel, with each item cell represents a certain size of a selected clothes.
 
   * when cell is pressed, if the size is on then do nothing, else try on the size been pressed.
@@ -109,7 +110,7 @@ When user press the clothes collection view item, which is a certain clothes, or
 
 > ![](/tryOnInfo.jpg)
 
-Related informations will be shown on the view including size and recommendation size. Try on cloth can be cancelled by press cancel button in the clothes info preview view. Cancel button is bind with `undoSimulation()` and by pressing cancel button, the whole try on pipe line will be cancelled. 
+Related informations will be shown on the view including size and recommendation size. Try on cloth can be cancelled by press cancel button in the clothes info preview view. Cancel button is bind with `undoSimulation()` and by pressing cancel button, the whole try on pipe line will be cancelled.
 
 ---
 
@@ -122,6 +123,18 @@ Related informations will be shown on the view including size and recommendation
 **FitleMixpanel.track\("app - click on measurment"\)**
 
 > In `measurementsAction()`
+
+**FitleMixpanel.track\("app - click on share avatar"\)**
+
+**FitleMixpanel.track\("app - click on share on facebook"\)**
+
+**FitleMixpanel.track\("app - click on share on twitter"\)**
+
+**FitleMixpanel.track\("app - click on share with mail"\)**
+
+**FitleMixpanel.track\("app - click on share with facebook messenger"\)**
+
+> in `shareAction()`
 
 
 
