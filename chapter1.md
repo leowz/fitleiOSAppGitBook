@@ -90,19 +90,13 @@ Buy clothes button work the same way as the buy button in Clothes info view does
 
 ### Clothes Panel
 
-
-
-
-
-
-
 ---
 
 ## MixPanel Track
 
-**FitleMixpanel.track\("app-start screen home"\) : `In viewDidAppear()`**
+**FitleMixpanel.track\("app-start screen home"\) :  **
 
-
+In `viewDidAppear()`
 
 
 
