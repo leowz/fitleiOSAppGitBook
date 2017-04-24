@@ -120,9 +120,13 @@ Related informations will be shown on the view including size and recommendation
 
 > In `viewDidAppear()`
 
+
+
 **FitleMixpanel.track\("app - click on measurment"\)**
 
 > In `measurementsAction()`
+
+
 
 **FitleMixpanel.track\("app - click on share avatar"\)**
 
@@ -134,7 +138,25 @@ Related informations will be shown on the view including size and recommendation
 
 **FitleMixpanel.track\("app - click on share with facebook messenger"\)**
 
-> in `shareAction()`
+> In `shareAction()`
+
+
+
+**FitleMixpanel.track\("app - click on go to product page\_tryon"\)**
+
+> In `buyClothAction()`
+
+
+
+**FitleMixpanel.track\("app-cancel tryon"\)**
+
+> In `undoSimulation()`
+
+
+
+**FitleMixpanel.track\("app-start screen tryon"\)**
+
+> In `clothesAction()`
 
 
 
