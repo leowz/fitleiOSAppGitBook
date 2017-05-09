@@ -20,6 +20,12 @@ From the current pipeline of presenting 3D model, there are two modes of interac
 
 **Basic work flow:**![](/assets/Pasted image at 2017_05_09 06_03 PM 2.jpg)
 
+![](/assets/Pasted image at 2017_05_09 06_03 PM 2.jpg)
+
+![](/assets/Pasted image at 2017_05_09 06_03 PM 2.jpg)
+
+![](/assets/Pasted image at 2017_05_09 06_03 PM 2.jpg)
+
 ---
 
 ### Basic interactions
