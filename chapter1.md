@@ -18,13 +18,7 @@ From the current pipeline of presenting 3D model, there are two modes of interac
   * User can chose different garments and try on them on the avatar.
   * In the side bar panel user can access the stretching mode which shows the fitness of any garment on the avatar.
 
-**Basic work flow:**![](/assets/Pasted image at 2017_05_09 06_03 PM 2.jpg)
-
-![](/assets/Pasted image at 2017_05_09 06_03 PM 2.jpg)
-
-![](/assets/Pasted image at 2017_05_09 06_03 PM 2.jpg)
-
-![](/assets/Pasted image at 2017_05_09 06_03 PM 2.jpg)
+> **Basic work flow:**![](/assets/Pasted image at 2017_05_09 06_03 PM 2.jpg)
 
 ---
 
