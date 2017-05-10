@@ -68,7 +68,7 @@ Share Button in the right bottom of the view is bind with `shareAction` which la
 
 ### Clothes Mode
 
-> ![](/clothMode.jpg)
+> ![](/assets/Pasted image at 2017_05_10 12_20 PM.png)
 
 User touch Clothes Button to transit to clothes mode. In clothes mode, side button panel at right side of the screen changes to clothes side button panel, with new buttons. Also in this mode, clothes panel in the bottom is enabled.
 
