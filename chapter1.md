@@ -26,7 +26,7 @@ From the current pipeline of presenting 3D model, there are two modes of interac
 
 ### Basic interactions
 
-> ### ![](/overview.jpg)
+> ### ![](/assets/Pasted image at 2017_05_10 11_34 AM.png)
 
 Here is a general screen of basic screen. There are generally 4 parts of functional components in this screen.
 
