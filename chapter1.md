@@ -86,7 +86,7 @@ Takeoff clothes button is bind with `takeoffClothes`. When an avatar have a clot
 
 Stretching map button is bind with `strethcingAction`. When user press this button, the avatar clothes will turn into stretching mode which shows user the comfort information of that clothes.
 
-> ![](/comfortMode.jpg)
+> ![](/assets/Pasted image at 2017_05_10 12_32 PM.png)
 
 Clothes info button is bind with `clothInfoAction`. When user press this button, Cloth info view will appear on the screen.
 
