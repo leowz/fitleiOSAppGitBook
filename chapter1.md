@@ -90,7 +90,7 @@ Stretching map button is bind with `strethcingAction`. When user press this butt
 
 Clothes info button is bind with `clothInfoAction`. When user press this button, Cloth info view will appear on the screen.
 
-> ![](/clothInfo.jpg)
+> ![](/assets/Pasted image at 2017_05_10 02_36 PM.png)
 
 Buy clothes button work the same way as the buy button in Clothes info view does. They are bind to buyClothAction. When the clothes currently on the avatar has a URL to the product page, then the button will be enabled and by pressing on the button, a browser will be launched and redirect to the product page on the current clothes on the avatar.
 
@@ -112,7 +112,7 @@ There are three sections in the Clothes panel and each section is a customized c
 
 When user press the clothes collection view item, which is a certain clothes, or size collection view item, which is a certain size, the try on clothes process `tryCloth()` is triggered. And a clothes info preview view will be displayed to the user.
 
-> ![](/tryOnInfo.jpg)
+> ![](/assets/Pasted image at 2017_05_10 02_45 PM.png)
 
 Related informations will be shown on the view including size and recommendation size. Try on cloth can be cancelled by press cancel button in the clothes info preview view. Cancel button is bind with `undoSimulation()` and by pressing cancel button, the whole try on pipe line will be cancelled.
 
