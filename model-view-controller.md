@@ -6,7 +6,5 @@ Embedded into the Home View Controller, Model View Controller is the key to pres
 
 ## OverView
 
-We can see and interact with Model View Controller through Home View Controller since the Model View Controller is added to the Home View Controller, and the main view, which is the avatar, in Home View Controller belongs to the Model View Controller.
-
-
+We can see and interact with Model View Controller through Home View Controller since the Model View Controller is added to the Home View Controller, and the main view, which is the avatar, in Home View Controller belongs to the Model View Controller. 
 
