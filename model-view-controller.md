@@ -14,11 +14,7 @@ Since this controller is a lower layer controller, there is no obvious user inte
 
 This is the method to set the initial values for transformation property of Model View Controller. Edit this method to change the initial stats of 3D avatar. It returns a transformation object initiated by the value set in the method.
 
-The transformation property is used to compute modelViewMatrix that will be applied to 3D model. 
+The transformation property is used to compute modelViewMatrix that will be applied to 3D model.
 
-This method can also be viewed to have stored an initial state of the avatar, by calling this method to set the value of transformation property, 
-
-
-
-
+This method can also be viewed to have stored an initial state of the avatar, by calling this method to set the value of transformation property, the avatar can be transformed to the initial state.
 
