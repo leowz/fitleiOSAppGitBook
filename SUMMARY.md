@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Home View Controller Screen](chapter1.md)
-* [Model View Controller](model-view-controller.md)
+* [Chapter1](chapter1.md)
+* [Chapter2](model-view-controller.md)
+* Chapter3
 
