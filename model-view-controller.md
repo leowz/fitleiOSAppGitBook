@@ -30,7 +30,13 @@ In creating the modelView matrix, we can change the position and rotation of the
 
 ### Touch Events
 
+* **pan**
 
+
+
+* **pinch**
+* **rotation**
+* **tap**
 
 
 
