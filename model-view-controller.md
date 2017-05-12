@@ -20,7 +20,7 @@ The transformation property is used to compute `modelViewMatrix` that will be ap
 
 This method can also be viewed to have stored an initial state of the avatar, by calling this method to set the value of transformation property, the avatar can be transformed to the initial state.
 
-### calculateMatrices: 
+### calculateMatrices:
 
 ModelViewController call this method to calculate transformation matrices. In the method, 3 kinds of matrices are calculated, including projection matrices, ModelView matrices, normal matrices.
 
@@ -28,7 +28,9 @@ In creating the projection matrix, we can set the value for the front plain and 
 
 In creating the modelView matrix, we can change the position and rotation of the avatar by setting the params of functions `GLKMatrix4Translate` ,  `GLKMatrix4RotateX` ,  `GLKMatrix4RotateZ` .
 
-### 
+### Touch Events
+
+
 
 
 
