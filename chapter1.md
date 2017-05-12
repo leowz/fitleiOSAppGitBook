@@ -26,7 +26,7 @@ From the current pipeline of presenting 3D model, there are two modes of interac
 
 ### Basic interactions
 
-> ### ![](/assets/Pasted image at 2017_05_10 11_56 AM.png)
+> ### ![](/assets/Pasted image at 2017_05_12 10_54 AM.png)
 
 Here is a general screen of basic screen. There are generally 4 parts of functional components in this screen.
 
@@ -68,7 +68,7 @@ Share Button in the right bottom of the view is bind with `shareAction` which la
 
 ### Clothes Mode
 
-> ![](/assets/Pasted image at 2017_05_10 12_20 PM.png)
+> ![](/assets/Pasted image at 2017_05_12 11_00 AM.png)
 
 User touch Clothes Button to transit to clothes mode. In clothes mode, side button panel at right side of the screen changes to clothes side button panel, with new buttons. Also in this mode, clothes panel in the bottom is enabled.
 
@@ -151,8 +151,6 @@ In `undoSimulation()`
 In `clothesAction()`
 
 > **FitleMixpanel.track\("app-start screen tryon"\)**
-
-
 
 
 
