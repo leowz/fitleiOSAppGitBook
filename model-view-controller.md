@@ -30,13 +30,19 @@ In creating the modelView matrix, we can change the position and rotation of the
 
 ### Touch Events
 
-* **pan**
+* pan
+  * change the z position of the avatar
+* pinch
 
+  * change the scale of the avatar
 
+* rotation
 
-* **pinch**
-* **rotation**
-* **tap**
+  * rotate the avatar by y axis
+
+* tap
+
+  * tap twice to reset the avatar transformation to the initial value
 
 
 
