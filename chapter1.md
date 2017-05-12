@@ -6,13 +6,13 @@ Home View Screen is the principle stage of the app. It is responsible for presen
 
 ## Overview
 
-Home View Screen is controlled by HomeViewController object in the project and subclass of ViewController\(UIViewController with small changes\). HomeViewController\`s content view controller and view is actually populated by ModelViewController which is the subclass of GLKViewController that are responsible for presenting OpenGL ES content. This indicate that the main task for Home View Screen is to present content of 3D model.
+Home View Screen is controlled by `HomeViewController` object in the project and subclass of `ViewController`\(UIViewController with small changes\). `HomeViewController` content view controller and view is actually populated by `ModelViewController` which is the subclass of `GLKViewController` that are responsible for presenting OpenGL ES content. This indicate that the main task for Home View Screen is to present content of 3D model.
 
 From the current pipeline of presenting 3D model, there are two modes of interaction with the avatar in home view screen:
 
-* Basic interactions with the 3D model of avatar
+* **Basic interactions with the 3D model of avatar**
   * Touch interactions including scaling, rotation, moving up or down of avatar.
-* Clothes mode
+* **Clothes mode**
 
   * Clothes bar and side bar are shown.
   * User can chose different garments and try on them on the avatar.
@@ -30,16 +30,16 @@ From the current pipeline of presenting 3D model, there are two modes of interac
 
 Here is a general screen of basic screen. There are generally 4 parts of functional components in this screen.
 
-* Navigation Bar 
+* **Navigation Bar **
   * Navigation Bar in the top composed of title and a button to show side menu bar.
-* ModelViewController
+* **ModelViewController**
   * Added as the main view of the HomeViewController itself. 
   * Touch events like pin,rotate and pan are predefined to interact with the avatar.
-* Side Button Panel
+* **Side Button Panel**
   * First button to switch to clothes mode
   * Second button to create avatar by measurment 
   * Third button to create a new avartar
-* Share Button at The Left Bottom Side of The View
+* **Share Button at The Right Bottom Side of The View**
   * Launch UIActivityViewController for share events
 
 ### NavigationBar
