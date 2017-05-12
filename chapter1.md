@@ -38,7 +38,7 @@ Here is a general screen of basic screen. There are generally 4 parts of functio
 * **Side Button Panel**
   * First button to switch to clothes mode
   * Second button to create avatar by measurment 
-  * Third button to create a new avartar
+  * Third button to create a new avatar
 * **Share Button at The Right Bottom Side of The View**
   * Launch UIActivityViewController for share events
 
@@ -48,9 +48,9 @@ NavBar is preset in `viewDidLoad` method. Title view is set to Fitle title theme
 
 ### ModelViewController
 
-ModelViewController is preset in `viewDidLoad` method. It is initialized from nib file and is added as the child view controller of HomeViewController and its view are set to the view of HomeViewController.
+`ModelViewController` is preset in `viewDidLoad` method. It is initialized from nib file and is added as the child view controller of `HomeViewController` and its view are set to the view of `HomeViewController`.
 
-ModelViewController is a subclass of GLKViewController. And 4 gesture are added as a default properties.
+`ModelViewController` is a subclass of `GLKViewController`. And 4 gesture are added as a default properties.
 
 ### Side Button Panel
 
@@ -62,7 +62,7 @@ SettingsButton is bind with `settingsAction` which shows the alert to let the us
 
 ### Share Button
 
-Share Button in the right bottom of the view is bind with `shareAction` which launch the UIActivityViewController.
+Share Button in the right bottom of the view is bind with `shareAction` which launch the `UIActivityViewController`.
 
 ---
 
@@ -72,11 +72,11 @@ Share Button in the right bottom of the view is bind with `shareAction` which la
 
 User touch Clothes Button to transit to clothes mode. In clothes mode, side button panel at right side of the screen changes to clothes side button panel, with new buttons. Also in this mode, clothes panel in the bottom is enabled.
 
-* Clothes Side Button Panel
+* **Clothes Side Button Panel**
 
   * For new buttons are enabled. takeoff clothes button, stretching mode button, clothes info button, buy clothes button.
 
-* Clothes panel
+* **Clothes panel**
 
   * Three collection views are included, clothes type collection view, clothes collection view, size collection view.
 
@@ -92,19 +92,19 @@ Clothes info button is bind with `clothInfoAction`. When user press this button,
 
 > ![](/assets/Pasted image at 2017_05_10 02_36 PM.png)
 
-Buy clothes button work the same way as the buy button in Clothes info view does. They are bind to buyClothAction. When the clothes currently on the avatar has a URL to the product page, then the button will be enabled and by pressing on the button, a browser will be launched and redirect to the product page on the current clothes on the avatar.
+Buy clothes button work the same way as the buy button in Clothes info view does. They are bind to `buyClothAction`. When the clothes currently on the avatar has a URL to the product page, then the button will be enabled and by pressing on the button, a browser will be launched and redirect to the product page on the current clothes on the avatar.
 
 ### Clothes Panel
 
 There are three sections in the Clothes panel and each section is a customized collection view. All the  behaviors of the collection views are delegated in the delegation methods.
 
-* Clothes type collection view
+* **Clothes type collection view**
   * Situated at the bottom of clothes panel, composed of arrow button at the left and clothes type buttons at the right side of arrow button.
   * When any item cell, which is a certain type of clothes, is pressed by the user, clothes collection view will show up.
-* Clothes collection view
+* **Clothes collection view**
   * Situated at the middle of clothes panel, with each collection item cell represents a model of clothes.
   * When item cell is pressed, the avatar will try on this clothes of recommended size. And size collection view will show up on top of clothes collection view.
-* Size collection view
+* **Size collection view**
 
   * Situated at the top of the clothes panel, with each item cell represents a certain size of a selected clothes.
 
@@ -120,25 +120,27 @@ Related informations will be shown on the view including size and recommendation
 
 ## MixPanel Track
 
-**FitleMixpanel.track\("app-start screen home"\)**
+In `viewDidAppear()`
 
-> In `viewDidAppear()`
+> **FitleMixpanel.track\("app-start screen home"\)**
 
-**FitleMixpanel.track\("app - click on measurment"\)**
+In `measurementsAction()`
 
-> In `measurementsAction()`
+> **FitleMixpanel.track\("app - click on measurment"\)**
 
-**FitleMixpanel.track\("app - click on share avatar"\)**
+In `shareAction()`
 
-**FitleMixpanel.track\("app - click on share on facebook"\)**
+> **FitleMixpanel.track\("app - click on share avatar"\)**
+>
+> **FitleMixpanel.track\("app - click on share on facebook"\)**
+>
+> **FitleMixpanel.track\("app - click on share on twitter"\)**
+>
+> **FitleMixpanel.track\("app - click on share with mail"\)**
+>
+> **FitleMixpanel.track\("app - click on share with facebook messenger"\)**
 
-**FitleMixpanel.track\("app - click on share on twitter"\)**
 
-**FitleMixpanel.track\("app - click on share with mail"\)**
-
-**FitleMixpanel.track\("app - click on share with facebook messenger"\)**
-
-> In `shareAction()`
 
 **FitleMixpanel.track\("app - click on go to product page\_tryon"\)**
 
