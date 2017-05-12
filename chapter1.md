@@ -140,19 +140,19 @@ In `shareAction()`
 >
 > **FitleMixpanel.track\("app - click on share with facebook messenger"\)**
 
+In `buyClothAction()`
+
+> **FitleMixpanel.track\("app - click on go to product page\_tryon"\)**
+
+In `undoSimulation()`
+
+> **FitleMixpanel.track\("app-cancel tryon"\)**
+
+In `clothesAction()`
+
+> **FitleMixpanel.track\("app-start screen tryon"\)**
 
 
-**FitleMixpanel.track\("app - click on go to product page\_tryon"\)**
-
-> In `buyClothAction()`
-
-**FitleMixpanel.track\("app-cancel tryon"\)**
-
-> In `undoSimulation()`
-
-**FitleMixpanel.track\("app-start screen tryon"\)**
-
-> In `clothesAction()`
 
 
 
