@@ -1,6 +1,6 @@
 # Image Capture Bis Controller & Image Capture Overlay View Controller
 
-`ImageCaptureBisController` and `ImageCaptureOverlayViewController` are the controllers responsible for set up the infrastructure and perform the process of taking photos for creating an avatar. `ImageCaptureBisController` servers as a container for `ImageCaptureOverlayViewController` and `ImageCaptureOverlayViewController` are responsible for the process for taking photos.
+`ImageCaptureBisController` and `ImageCaptureOverlayViewController` are the controllers responsible for set up the infrastructure and perform the process of taking photos for creating an avatar. `ImageCaptureBisController` servers as a container for `ImageCaptureOverlayViewController` and `ImageCaptureOverlayViewController` are responsible for the process for taking photos. To better understand the behavior of these controllers, its better to have some basic knowledge on `AVFoundation` framework and `CALayer` class.
 
 ---
 
