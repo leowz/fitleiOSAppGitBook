@@ -12,3 +12,7 @@ In short, `ImageCaptureBisController` present `ImageCaptureOverlayViewController
 
 The workflow for image capture is simple, when the user finish the tutorial for taking photos or just skip the tutorial, the screen for image capture is shown automatically, and after user start the process of taking photos, all the steps of taking photos will be initiated one by one.
 
+
+
+
+
