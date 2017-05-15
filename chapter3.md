@@ -18,6 +18,14 @@ The workflow for image capture is simple, when the user finish the tutorial for 
 
 ### START STAGE
 
+The start stage is the stage when the infrastructures for taking photo are set up and the controller wait for user to initiate the taking photo process by pressing the button in the middle of the screen.
+
+There are 3 group of views on screen that are important. Top Navigation bar control buttons, outline image for front image view and camera button group, and background preview layer.
+
+//TODO: add image for start stage.
+
+
+
 ---
 
 ### FIRST PHOTO
