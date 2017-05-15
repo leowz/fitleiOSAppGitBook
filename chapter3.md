@@ -24,6 +24,18 @@ There are 3 group of views on screen that are important. Top Navigation bar cont
 
 //TODO: add image for start stage.
 
+* NavigationBar Control button
+  * left cancel button to go back to the view controller who presented the current view controller
+  * middle label view to indicate the current stage of the photo taking process
+  * right switch camera button to switch to either front or back camera
+* Outline image and camera button
+  * outline image is just an image overlay between the video preview and the camera button, it just serves as an indicator for user to take photo accordingly.
+  * camera button is the control for camera taking photo count down, press this button to start the count down for taking photo instead of photo immediately
+* Background preview layer
+  * background preview layer is a CLLayer added to the layer of the controller view
+
+
+
 
 
 ---
@@ -37,6 +49,10 @@ There are 3 group of views on screen that are important. Top Navigation bar cont
 ---
 
 ### THIRD PHOTO
+
+---
+
+### FACE PHOTO
 
 ---
 
