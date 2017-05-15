@@ -70,5 +70,9 @@ In face photo stage, face outline image is shown and camera button is shown at t
 
 ### MixPanel Events
 
+In `ImageCaptureBisController.viewDidAppear`
+
+> FitleMixpanel.track\("app-start camera"\)
+
 
 
