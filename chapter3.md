@@ -32,27 +32,39 @@ There are 3 group of views on screen that are important. Top Navigation bar cont
   * outline image is just an image overlay between the video preview and the camera button, it just serves as an indicator for user to take photo accordingly.
   * camera button is the control for camera taking photo count down, press this button to start the count down for taking photo instead of photo immediately
 * Background preview layer
-  * background preview layer is a CLLayer added to the layer of the controller view
-
-
-
-
+  * background preview layer is a CALayer added to the layer of the controller view
 
 ---
 
 ### FIRST PHOTO
 
+First photo stage is initiated by pressing the camera button in the start stage,  then the camera button  become a count down indicator which start the count down to take photo. The count down interval is set by `photoInterval` property. When count down finishes, `takePhoto1` is called and then second photo stage is initiated.
+
+// TODO: First photo image
+
 ---
 
 ### SECOND PHOTO
+
+In second photo stage, the outline image for front photo is changed to the outline image for the side photo. The count down start automatically and when it finishes, the third photo stage is initiated.
+
+//TODO: second photo
 
 ---
 
 ### THIRD PHOTO
 
+In third photo stage, no outline image is shown and when the count down finishes, the face photo stage is initiated.
+
+//TODO: third photo
+
 ---
 
 ### FACE PHOTO
+
+In face photo stage, face outline image is shown and camera button is shown at the bottom of the screen. In this stage, user can only use front camera to take face photo or user can just skip this process. And after taking or skipping face photo, the screen will segue to `ImagePreviewViewController` .
+
+//TODO: face photo
 
 ---
 
