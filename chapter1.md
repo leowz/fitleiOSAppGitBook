@@ -118,7 +118,7 @@ Related informations will be shown on the view including size and recommendation
 
 ---
 
-## MixPanel Track
+## MixPanel Events
 
 In `viewDidAppear()`
 
