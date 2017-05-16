@@ -21,9 +21,17 @@ In `ImagePreviewViewController`, there are three parts of views top view, bottom
 
 ### Swipe Behavior
 
+User can change the preview image by swiping left ward. Once user swipe right ward, top view image and bottom view image are changed accordingly. 
+
+// TODO: Image
+
 ---
 
 ### Animation Overlay
+
+When `ImagePreviewViewController` are loaded and shown on screen, an animation overlay is added on the main view. This animation overlay just shows an hand image to indicate the user to use swipe gesture.
+
+// TODO: image
 
 ---
 
