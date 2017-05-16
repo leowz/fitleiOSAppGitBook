@@ -4,5 +4,38 @@ In this controller, user can preview those taken photos to decide whether to cre
 
 ---
 
+In `ImagePreviewViewController`, there are three parts of views top view, bottom view and bottom button view. 
+
+* **Top View**
+  * the top view shows 3 images in a row to help user decide whether an image could be considered a good image.
+* **Bottom View**
+  * bottom view is the preview of all photos taken, photos can be changed horizontally by swipe gesture
+* **Bottom Button View**
+  * bottom button view contains two button
+  * left side cancel button can present another image capture controller
+  * right side confirm button can segue to the next controller which is either `CreatingAvatarViewController` or `HairEyeSelectionViewController` .
+
+// TODO: image for preview
+
+---
+
+### SWIPE BEHAVIORS
+
+
+
+---
+
+
+
+### update UI by swipe
+
+---
+
+### animation overlay
+
+---
+
+### Mixpanel events
+
 
 
