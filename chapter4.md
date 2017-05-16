@@ -4,7 +4,7 @@ In this controller, user can preview those taken photos to decide whether to cre
 
 ---
 
-In `ImagePreviewViewController`, there are three parts of views top view, bottom view and bottom button view. 
+In `ImagePreviewViewController`, there are three parts of views top view, bottom view and bottom button view.
 
 * **Top View**
   * the top view shows 3 images in a row to help user decide whether an image could be considered a good image.
@@ -19,19 +19,11 @@ In `ImagePreviewViewController`, there are three parts of views top view, bottom
 
 ---
 
-### SWIPE BEHAVIORS
-
-
+### Swipe Behavior
 
 ---
 
-
-
-### update UI by swipe
-
----
-
-### animation overlay
+### Animation Overlay
 
 ---
 
