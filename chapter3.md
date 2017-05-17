@@ -48,7 +48,7 @@ First photo stage is initiated by pressing the camera button in the start stage,
 
 In second photo stage, the outline image for front photo is changed to the outline image for the side photo. The count down start automatically and when it finishes, the third photo stage is initiated.
 
-
+![](/assets/Pasted image at 2017_05_17 02_47 PM.png)
 
 ---
 
@@ -56,7 +56,7 @@ In second photo stage, the outline image for front photo is changed to the outli
 
 In third photo stage, no outline image is shown and when the count down finishes, the face photo stage is initiated.
 
-//TODO: third photo
+![](/assets/Pasted image at 2017_05_17 02_50 PM.png)
 
 ---
 
@@ -64,7 +64,7 @@ In third photo stage, no outline image is shown and when the count down finishes
 
 In face photo stage, face outline image is shown and camera button is shown at the bottom of the screen. In this stage, user can only use front camera to take face photo or user can just skip this process. And after taking or skipping face photo, the screen will segue to `ImagePreviewViewController` .
 
-//TODO: face photo
+![](/assets/Pasted image at 2017_05_17 03_02 PM.png)
 
 ---
 
