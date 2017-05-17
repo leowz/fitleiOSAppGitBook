@@ -64,6 +64,24 @@ In `doneAction`
 
 > FitleMixpanel.track\("app - click on change account password"\)
 
+### MyAvatarsViewController
+
+In `viewDidAppear`
+
+> FitleMixpanel.track\("app-start screen my avatars"\)
+
+In `editAvatarNameButtonAction`
+
+> FitleMixpanel.track\("app - click on confirm change name avatar"\)
+
+In `loadAvatarButtonAction`
+
+> FitleMixpanel.track\("app-change my avatar", property: \["session\_id": self.allAvatars\[self.lastChecked\].id\]\)
+
+In `errorMessage`
+
+> FitleMixpanel.track\("app-retry download"\)
+
 
 
 
