@@ -22,16 +22,16 @@ The start stage is the stage when the infrastructures for taking photo are set u
 
 There are 3 group of views on screen that are important. Top Navigation bar control buttons, outline image for front image view and camera button group, and background preview layer.
 
-//TODO: add image for start stage.
+![](/assets/Pasted image at 2017_05_17 11_59 AM.png)
 
-* NavigationBar Control button
+* **NavigationBar Control button**
   * left cancel button to go back to the view controller who presented the current view controller
   * middle label view to indicate the current stage of the photo taking process
   * right switch camera button to switch to either front or back camera
-* Outline image and camera button
+* **Outline image and camera button**
   * outline image is just an image overlay between the video preview and the camera button, it just serves as an indicator for user to take photo accordingly.
   * camera button is the control for camera taking photo count down, press this button to start the count down for taking photo instead of photo immediately
-* Background preview layer
+* **Background preview layer**
   * background preview layer is a CALayer added to the layer of the controller view
 
 ---
