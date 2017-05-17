@@ -82,6 +82,12 @@ In `errorMessage`
 
 > FitleMixpanel.track\("app-retry download"\)
 
+### SettingsViewController
+
+In `viewWillAppear`
+
+> FitleMixpanel.track\("app-start screen settings"\)
+
 
 
 
