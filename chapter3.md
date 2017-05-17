@@ -40,7 +40,7 @@ There are 3 group of views on screen that are important. Top Navigation bar cont
 
 First photo stage is initiated by pressing the camera button in the start stage,  then the camera button  become a count down indicator which start the count down to take photo. The count down interval is set by `photoInterval` property. When count down finishes, `takePhoto1` is called and then second photo stage is initiated.
 
-// TODO: First photo image
+![](/assets/Pasted image at 2017_05_17 02_32 PM.png)
 
 ---
 
