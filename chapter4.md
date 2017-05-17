@@ -21,7 +21,7 @@ In `ImagePreviewViewController`, there are three parts of views top view, bottom
 
 ### Swipe Behavior
 
-User can change the preview image by swiping left ward. Once user swipe right ward, top view image and bottom view image are changed accordingly. 
+User can change the preview image by swiping left ward. Once user swipe right ward, top view image and bottom view image are changed accordingly.
 
 // TODO: Image
 
@@ -37,5 +37,7 @@ When `ImagePreviewViewController` are loaded and shown on screen, an animation o
 
 ### Mixpanel events
 
+In `viewDidAppear`
 
+> FitleMixpanel.track\("app-start screen validation"\)
 
