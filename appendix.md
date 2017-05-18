@@ -146,9 +146,19 @@ In `iRateUserDidAttemptToRateApp`
 
 > FitleMixpanel.track\("app - click on rate\_popup"\)
 
+### AvatarMeasurementsViewController
 
+In `editButtonAction`
 
+> FitleMixpanel.track\("app - started edit measurment"\)
 
+In `viewDidAppear`
+
+> FitleMixpanel.track\("app-start screen measurements"\)
+
+In `beforeSendEmailAlert`
+
+> FitleMixpanel.track\("app - click on send measurment by email"\)
 
 
 
