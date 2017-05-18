@@ -90,5 +90,65 @@ In `viewWillAppear`
 
 ---
 
+### HomeViewController
+
+In `viewDidAppear`
+
+> FitleMixpanel.track\("app-start screen home"\)
+
+In `easyTipViewDidDismiss`
+
+> FitleMixpanel.track\("app - click on measurment"\)
+
+In `shareAction`
+
+> FitleMixpanel.track\("app - click on share avatar"\)
+>
+> FitleMixpanel.track\("app - click on share on facebook"\)
+>
+> FitleMixpanel.track\("app - click on share on twitter"\)
+>
+> FitleMixpanel.track\("app - click on share with mail"\)
+>
+> FitleMixpanel.track\("app - click on share with facebook messenger"\)
+
+In `buyClothAction`
+
+> FitleMixpanel.track\("app - click on go to product page\_tryon"\)
+
+In `undoSimulation`
+
+> FitleMixpanel.track\("app-cancel tryon"\)
+
+In `clothesAction`
+
+> FitleMixpanel.track\("app-start screen tryon"\)
+
+In `takeoffClothes`
+
+> FitleMixpanel.track\("app-click on remove clothes"\)
+
+In `stretchingAction`
+
+> FitleMixpanel.track\("app-click on stretching map"\)
+
+In `tryCloth(:::)`
+
+> FitleMixpanel.track\("app-tryon loaded"\)
+
+In `tryCloth()`
+
+> FitleMixpanel.track\("app-start tryon", property: \["cloth\_id": clothChosen!, "size\_id": sizeChosen!, "color\_id": colorChosen!\]\)
+>
+> FitleMixpanel.track\("app-tryon loaded"\)
+
+In `iRateUserDidAttemptToRateApp`
+
+> FitleMixpanel.track\("app - click on rate\_popup"\)
+
+
+
+
+
 
 
