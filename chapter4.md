@@ -15,7 +15,7 @@ In `ImagePreviewViewController`, there are three parts of views top view, bottom
   * left side cancel button can present another image capture controller
   * right side confirm button can segue to the next controller which is either `CreatingAvatarViewController` or `HairEyeSelectionViewController` .
 
-// TODO: image for preview
+![](/assets/Pasted image at 2017_05_18 12_17 PM.jpg)
 
 ---
 
