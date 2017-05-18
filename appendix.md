@@ -160,5 +160,11 @@ In `beforeSendEmailAlert`
 
 > FitleMixpanel.track\("app - click on send measurment by email"\)
 
+### AvatarMeasurementDescriptionViewController
+
+In `editButtonAction`
+
+> FitleMixpanel.track\("app - started edit measurment"\)
+
 
 
