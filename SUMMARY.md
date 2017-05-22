@@ -6,5 +6,5 @@
 * [Chap3ImageCaputureController](chapter3.md)
 * [Chap4ImagePreviewController](chapter4.md)
 * [Chap5WebServiceDownloadPipeline](chap5webservicedownloadpipeline.md)
-* [Appendix](appendix.md)
+* [Appendix:Mixpanel](appendix.md)
 

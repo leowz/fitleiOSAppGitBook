@@ -1,5 +1,7 @@
 # All MixPanel Events
 
+All mixpanel events are summarized below. And they are organized in sections consist with a bold heading indicating in which controller are there these events, and following with these events in this controller. Events are grouped based on the methods or functions they are in. And there are usually one line of text above each group of events indicating which method these events are in, with some times one line of description about this method.
+
 ---
 
 In `HomeViewController` screen when user press the menu button on the Navigation Bar, `MenuViewController` shows up and user could select any button on the controller view to segue to the next controller.
