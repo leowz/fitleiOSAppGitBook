@@ -10,23 +10,23 @@ In `HomeViewController` screen when user press the menu button on the Navigation
 
 When user press `ABOUT FITLE` button, `ConceptViewController` will present to user.
 
-**In `ViewDidAppear`**
+**In **`ViewDidAppear`
 
 > FitleMixpanel.track\("app-start screen about us"\)
 
-**In `rateAppAction`**
+**In **`rateAppAction`
 
 > FitleMixpanel.track\("app - click on rate\_about"\)
 
-**In `likePageAction`**
+**In **`likePageAction`
 
 > FitleMixpanel.track\("app - click on like facebook"\)
 
-**In `legalConditionsAction`**
+**In **`legalConditionsAction`
 
 > FitleMixpanel.track\("app - click on CGAs\_about"\)
 
-**In `feedbackAction`**
+**In **`feedbackAction`
 
 > FitleMixpanel.track\("app - click on feedback\_about"\)
 
@@ -34,11 +34,11 @@ When user press `ABOUT FITLE` button, `ConceptViewController` will present to us
 
 Press `PARTNER BRNADS` to present this controller.
 
-**In `viewDidAppear`**
+**In **`viewDidAppear`
 
 > FitleMixpanel.track\("app-start screen partner"\)
 
-**In `collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath)`**
+**In **`collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath)`
 
 There are two group of marks in this collectionView, interchangeable by a segmented control. Touch on different group of mark will trigger different events.
 
@@ -50,17 +50,19 @@ There are two group of marks in this collectionView, interchangeable by a segmen
 
 Press `FAQ` button to present this controller.
 
-**In `viewDidAppear`**
+**In **`viewDidAppear`
 
 > FitleMixpanel.track\("app-start screen FAQ"\)
 
 ### ProfileViewController
 
-In `viewDidAppear`
+Press `MY PROFILE` button to present this controller.
+
+**In `viewDidAppear`**
 
 > FitleMixpanel.track\("app - click on profile infos"\)
 
-In `saveAction`
+**In `saveAction`**
 
 > FitleMixpanel.track\("app - click on update profile infos\_any"\)
 >
