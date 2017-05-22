@@ -2,7 +2,11 @@
 
 ---
 
+In `HomeViewController` screen when user press the menu button on the Navigation Bar, `MenuViewController` shows up and user could select any button on the controller view to segue to the next controller.
+
 ### ConceptViewController
+
+When user press ABOUT FITLE button, `ConceptViewController` will present to user.
 
 In `ViewDidAppear`
 
@@ -14,7 +18,7 @@ In `rateAppAction`
 
 In `likePageAction`
 
-> FitleMixpanel.track\("app - click on like facebook
+> FitleMixpanel.track\("app - click on like facebook"\)
 
 In `legalConditionsAction`
 
