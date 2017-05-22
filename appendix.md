@@ -58,11 +58,11 @@ Press `FAQ` button to present this controller.
 
 Press `MY PROFILE` button to present this controller.
 
-**In `viewDidAppear`**
+**In **`viewDidAppear`
 
 > FitleMixpanel.track\("app - click on profile infos"\)
 
-**In `saveAction`**
+**In **`saveAction`
 
 > FitleMixpanel.track\("app - click on update profile infos\_any"\)
 >
@@ -73,6 +73,8 @@ Press `MY PROFILE` button to present this controller.
 > FitleMixpanel.track\("app - click on update profile infos\_changed account birthdate"\)
 
 ### ChangePasswordViewController
+
+In `ProfileViewController` if user want to change password,  press `Change password` text field to present this controller.
 
 In `doneAction`
 
