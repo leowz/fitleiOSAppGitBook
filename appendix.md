@@ -1,6 +1,6 @@
 # All MixPanel Events
 
-All mixpanel events are summarized below. And they are organized in sections consist with a bold heading indicating in which controller are there these events, and following with these events in this controller. Events are grouped based on the methods or functions they are in. And there usually will be one line of text above each group of events indicating which method these events are in, with some times another line of description about this method.
+All mixpanel events are summarized below. And they are organized in sections consisted with a bold heading indicating in which controller are there these events, and followed with these events groups in this controller. Events are grouped based on the methods or functions they are in. And there usually will be one line of text above each group of events indicating which method these events are in, with some times another line of description about this method.
 
 ---
 
@@ -32,7 +32,7 @@ In `feedbackAction`
 
 ### PartnersNewViewController
 
-Press `PARTNER BRNADS` to present this controller. 
+Press `PARTNER BRNADS` to present this controller.
 
 In `viewDidAppear`
 
