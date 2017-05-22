@@ -40,6 +40,8 @@ In `viewDidAppear`
 
 In `collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath)`
 
+
+
 > FitleMixpanel.track\("app - click on partner tryon", property:  \["url": url!\]\)
 >
 > FitleMixpanel.track\("app - click on partner reco", property:  \["url": url!\]\)
