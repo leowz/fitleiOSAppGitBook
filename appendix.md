@@ -64,6 +64,8 @@ Press `MY PROFILE` button to present this controller.
 
 **In **`saveAction`
 
+In `saveAction` method, depends on what content user have changed, different events will be sent.
+
 > FitleMixpanel.track\("app - click on update profile infos\_any"\)
 >
 > FitleMixpanel.track\("app - click on update profile infos\_changed account name"\)
@@ -91,6 +93,8 @@ In `editAvatarNameButtonAction`
 > FitleMixpanel.track\("app - click on confirm change name avatar"\)
 
 In `loadAvatarButtonAction`
+
+Triggered when user confirm to change their current avatar.
 
 > FitleMixpanel.track\("app-change my avatar", property: \["session\_id": self.allAvatars\[self.lastChecked\].id\]\)
 
