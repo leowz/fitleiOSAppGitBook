@@ -48,7 +48,7 @@ There are two group of marks in this collectionView, interchangeable by a segmen
 
 ### FAQViewController
 
-Press `FAQ` button to present this controller.
+In `MenuViewController` , press `FAQ` button to present this controller.
 
 **In **`viewDidAppear`
 
