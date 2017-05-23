@@ -170,13 +170,15 @@ When app launch with default clothes and the clothes need to be downloaded. This
 
 In `tryCloth()`
 
-
+When user try on any clothes from cloth mode, by touching on any garment, events below will be sent.
 
 > FitleMixpanel.track\("app-start tryon", property: \["cloth\_id": clothChosen!, "size\_id": sizeChosen!, "color\_id": colorChosen!\]\)
 >
 > FitleMixpanel.track\("app-tryon loaded"\)
 
 In `iRateUserDidAttemptToRateApp`
+
+Triggered when the iRate panel appears and user try to rate.
 
 > FitleMixpanel.track\("app - click on rate\_popup"\)
 
