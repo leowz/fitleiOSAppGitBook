@@ -56,7 +56,7 @@ In `MenuViewController` , press `FAQ` button to present this controller.
 
 ### ProfileViewController
 
-Press `MY PROFILE` button to present this controller.
+In `MenuViewController` , press `MY PROFILE` button to present this controller.
 
 **In **`viewDidAppear`
 
