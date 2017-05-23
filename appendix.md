@@ -120,9 +120,13 @@ In `viewDidAppear`
 
 In `measurementsAction`
 
+Triggered by click on the measurement button on home screen.
+
 > FitleMixpanel.track\("app - click on measurment"\)
 
 In `shareAction`
+
+Different events are triggered by different share action. If user have shared successfully,  based on the application he shared on, different event will be sent.
 
 > FitleMixpanel.track\("app - click on share avatar"\)
 >
