@@ -8,7 +8,7 @@ In `HomeViewController` screen when user press the menu button on the Navigation
 
 ### ConceptViewController
 
-When user press `ABOUT FITLE` button, `ConceptViewController` will present to user.
+In `MenuViewController` , when user press `ABOUT FITLE` button, `ConceptViewController` will present to user.
 
 **In **`ViewDidAppear`
 
