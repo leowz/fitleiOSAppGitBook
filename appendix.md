@@ -144,9 +144,13 @@ In `buyClothAction`
 
 In `undoSimulation`
 
+Triggered when user cancel the clothes downloading process.
+
 > FitleMixpanel.track\("app-cancel tryon"\)
 
 In `clothesAction`
+
+Triggered when segued to clothes mode.
 
 > FitleMixpanel.track\("app-start screen tryon"\)
 
@@ -160,9 +164,13 @@ In `stretchingAction`
 
 In `tryCloth(:::)`
 
+When app launch with default clothes and the clothes need to be downloaded. This method will be called and event will be sent.
+
 > FitleMixpanel.track\("app-tryon loaded"\)
 
 In `tryCloth()`
+
+
 
 > FitleMixpanel.track\("app-start tryon", property: \["cloth\_id": clothChosen!, "size\_id": sizeChosen!, "color\_id": colorChosen!\]\)
 >
