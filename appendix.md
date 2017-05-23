@@ -118,7 +118,7 @@ In `viewDidAppear`
 
 > FitleMixpanel.track\("app-start screen home"\)
 
-In `easyTipViewDidDismiss`
+In `measurementsAction`
 
 > FitleMixpanel.track\("app - click on measurment"\)
 
