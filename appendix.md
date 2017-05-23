@@ -84,6 +84,8 @@ In `doneAction`
 
 ### MyAvatarsViewController
 
+In `MenuViewController` , when user touches `MY AVATARS` button, this controller will be presented.
+
 In `viewDidAppear`
 
 > FitleMixpanel.track\("app-start screen my avatars"\)
@@ -94,7 +96,7 @@ In `editAvatarNameButtonAction`
 
 In `loadAvatarButtonAction`
 
-Triggered when user confirm to change their current avatar.
+Triggered when user confirms to change their current avatar.
 
 > FitleMixpanel.track\("app-change my avatar", property: \["session\_id": self.allAvatars\[self.lastChecked\].id\]\)
 
@@ -106,6 +108,8 @@ Triggered when any error occurs during avatar download process.
 
 ### SettingsViewController
 
+In `MenuViewController` , when user touches `SETTINGS` button, this controller will be presented.
+
 In `viewWillAppear`
 
 > FitleMixpanel.track\("app-start screen settings"\)
@@ -113,6 +117,8 @@ In `viewWillAppear`
 ---
 
 ### HomeViewController
+
+This is the main stage for the app, and for presenting avatars and garments for user.
 
 In `viewDidAppear`
 
@@ -144,7 +150,7 @@ In `buyClothAction`
 
 In `undoSimulation`
 
-Triggered when user cancel the clothes downloading process.
+Triggered when user cancels the clothes downloading process.
 
 > FitleMixpanel.track\("app-cancel tryon"\)
 
@@ -164,13 +170,13 @@ In `stretchingAction`
 
 In `tryCloth(:::)`
 
-When app launch with default clothes and the clothes need to be downloaded. This method will be called and event will be sent.
+When app launches with default clothes and the clothes need to be downloaded. This method will be called and event will be sent.
 
 > FitleMixpanel.track\("app-tryon loaded"\)
 
 In `tryCloth()`
 
-When user try on any clothes from cloth mode, by touching on any garment, events below will be sent.
+When user trys on any clothes from cloth mode, by touching on any garment, events below will be sent.
 
 > FitleMixpanel.track\("app-start tryon", property: \["cloth\_id": clothChosen!, "size\_id": sizeChosen!, "color\_id": colorChosen!\]\)
 >
@@ -183,6 +189,8 @@ Triggered when the iRate panel appears and user try to rate.
 > FitleMixpanel.track\("app - click on rate\_popup"\)
 
 ### AvatarMeasurementsViewController
+
+In `HomeViewController`, when the user touches the measurements button, this controller will be presented.
 
 In `editButtonAction`
 
@@ -197,6 +205,8 @@ In `beforeSendEmailAlert`
 > FitleMixpanel.track\("app - click on send measurment by email"\)
 
 ### AvatarMeasurementDescriptionViewController
+
+In `AvatarMeasurementsViewController`, in the list of measurements, when user touches any row of measurement, this controller will be presented to the user.
 
 In `editButtonAction`
 
