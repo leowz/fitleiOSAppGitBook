@@ -32,7 +32,7 @@ In `MenuViewController` , when user press `ABOUT FITLE` button, `ConceptViewCont
 
 ### PartnersNewViewController
 
-Press `PARTNER BRNADS` to present this controller.
+In `MenuViewController` , press `PARTNER BRNADS` to present this controller.
 
 **In **`viewDidAppear`
 
