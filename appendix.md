@@ -100,6 +100,8 @@ Triggered when user confirm to change their current avatar.
 
 In `errorMessage`
 
+Triggered when any error occurs during avatar download process.
+
 > FitleMixpanel.track\("app-retry download"\)
 
 ### SettingsViewController
