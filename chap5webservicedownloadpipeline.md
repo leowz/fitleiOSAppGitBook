@@ -16,6 +16,20 @@ Note that there are two scenario that user this work flow which is the process o
 
 ### ![](/assets/WebService_sharedService_getUserInfoAndDownloadAvatar.png)Garment Download Pipeline Work Flow
 
+There are two places that garment download pipeline are used, when user in the home view screen to try on some garment and when the app is launched and need to download some default garment for the avatar.
+
+![](/assets/ClothesManager_sharedManager_getSimulationClothesProgress %282%29.png)
+
+---
+
+### Garment Download Progress Callback
+
+We can manage the behavior of UI from different stages of download process, and there are 4 stages of process which we can basically observe and set the callback to some code to execute during certain period of the Garment download process. And basically, there is the some process for avatar download process but there just is not any designed api to set callback closure to execute.
+
+So there are four stages during the download pregress, which is creating, downloading ,unzipping and finished.
+
+
+
 
 
 
