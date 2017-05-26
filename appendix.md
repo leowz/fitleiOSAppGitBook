@@ -212,5 +212,83 @@ In `editButtonAction`
 
 > FitleMixpanel.track\("app - started edit measurment"\)
 
+---
+
+### EditMeasurementsViewController
+
+The controller that can create avatar from measurements.
+
+In `viewDidAppear`
+
+> FitleMixpanel.track\("app-start screen measurements edition"\)
+
+In `createNewAvatarButtonAction`
+
+> FitleMixpanel.track\("app - click on update measurment"\)
+
+### ChangeInformationVC
+
+In `viewDidAppear`
+
+> FitleMixpanel.track\("app-start screen infos avatar"\)
+
+### AvatarVideoTutorialViewController
+
+In `viewDidAppear`
+
+> FitleMixpanel.track\("app-start screen video tutorial"\)
+
+In `skipAction`
+
+> FitleMixpanel.track\("app-skip video"\)
+
+### ImagePreviewViewController
+
+In `viewDidAppear`
+
+> FitleMixpanel.track\("app-start screen validation"\)
+
+### HairEyeSelectController
+
+In `viewDidAppear`
+
+> FitleMixpanel.track\("app-start screen hair eye"\)
+
+### CreatingAvatarViewController
+
+In `viewDidAppear`
+
+> FitleMixpanel.track\("app-start screen congratulations"\)
+
+In `showCreationError`
+
+> FitleMixpanel.track\("app-cancel recreate avatar"\)
+>
+> FitleMixpanel.track\("app-recreate avatar"\)
+
+In `seeAvatarAction`
+
+> FitleMixpanel.track\("app-click to see avatar"\)
+
+### ImageCaptureBisViewController
+
+In `viewDidAppear`
+
+> FitleMixpanel.track\("app-start camera"\)
+
+### OnboardingViewController
+
+In `viewDidAppear`
+
+> FitleMixpanel.track\("app-start screen first onboarding"\)
+
+### OnboardingTwoViewController
+
+In `viewDidAppear`
+
+> FitleMixpanel.track\("app-start screen second onboarding"\)
+
+
+
 
 
