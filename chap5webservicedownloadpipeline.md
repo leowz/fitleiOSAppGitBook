@@ -39,7 +39,9 @@ So there are four stages during the download pregress, which is creating, downlo
 * unzip 
   * when resource is successfully downloaded, it will then be unzipped on the device and the unzipped files will be saved on a directory of the app. Before the unzipped files will be saved, in the directory, old resource files in the directory will be deleted.
 * finish
-  * 
+  * when finishes unzip process,resource will be loaded automatically and user can perform a series of actions on the UI.
+
+
 
 
 
