@@ -28,9 +28,15 @@ We can manage the behavior of UI from different stages of download process, and 
 
 So there are four stages during the download pregress, which is creating, downloading ,unzipping and finished.
 
+![](/assets/import1.png)
 
-
-
+* creating
+  * on server side simulation process, if an avatar is not pre simulated, this process will take up to 60s due to the complexity of computation. Else if simulated, this process just conform that the app can just download the resource
+* download
+  * start a download request from the download endpoint to retrieve the avatar model resource. This process might take 2 - 3s if the network is good enough, and might take up to 15s if the network is bad.
+  * when a download is slower then 15s, no matter there is an error or not, the request will be considered a time out error. 
+  * In Garment download context, time out error causes nothing and expect user to cancel download process. In avatar download context, however, an redownload alert will be raised to the user.
+ 
 
 
 
