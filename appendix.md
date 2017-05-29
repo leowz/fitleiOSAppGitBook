@@ -290,7 +290,7 @@ When an avatar are created successfully, user can click see avatar button to seg
 
 ### OnboardingViewController
 
-There are two on boarding controller, that
+There are two on boarding controller, that show the user the accepted way to take photos for avatar creation. 
 
 In `viewDidAppear`
 
