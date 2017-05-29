@@ -202,6 +202,8 @@ In `viewDidAppear`
 
 In `beforeSendEmailAlert`
 
+User tries to send measurement by email.
+
 > FitleMixpanel.track\("app - click on send measurment by email"\)
 
 ### AvatarMeasurementDescriptionViewController
@@ -228,6 +230,8 @@ In `createNewAvatarButtonAction`
 
 ### ChangeInformationVC
 
+This controller is the controller for user to create the first avatar. It only appears when user do not have any avatar.
+
 In `viewDidAppear`
 
 > FitleMixpanel.track\("app-start screen infos avatar"\)
@@ -240,6 +244,8 @@ In `viewDidAppear`
 
 In `skipAction`
 
+User skips tutorial video.
+
 > FitleMixpanel.track\("app-skip video"\)
 
 ### ImagePreviewViewController
@@ -247,6 +253,12 @@ In `skipAction`
 In `viewDidAppear`
 
 > FitleMixpanel.track\("app-start screen validation"\)
+
+### ImageCaptureBisViewController
+
+In `viewDidAppear`
+
+> FitleMixpanel.track\("app-start camera"\)
 
 ### HairEyeSelectController
 
@@ -256,11 +268,15 @@ In `viewDidAppear`
 
 ### CreatingAvatarViewController
 
+Its the controller that shows the avatar creation progress on server side. It appears when user finishes their photos and confirms to create the avatar.
+
 In `viewDidAppear`
 
 > FitleMixpanel.track\("app-start screen congratulations"\)
 
 In `showCreationError`
+
+When an error appears in avatar creation, user can either cancel avatar creation or recreate avatar.
 
 > FitleMixpanel.track\("app-cancel recreate avatar"\)
 >
@@ -268,15 +284,13 @@ In `showCreationError`
 
 In `seeAvatarAction`
 
+When an avatar are created successfully, user can click see avatar button to segue to `homeViewController`.
+
 > FitleMixpanel.track\("app-click to see avatar"\)
 
-### ImageCaptureBisViewController
-
-In `viewDidAppear`
-
-> FitleMixpanel.track\("app-start camera"\)
-
 ### OnboardingViewController
+
+There are two on boarding controller, that
 
 In `viewDidAppear`
 
@@ -287,8 +301,6 @@ In `viewDidAppear`
 In `viewDidAppear`
 
 > FitleMixpanel.track\("app-start screen second onboarding"\)
-
-
 
 
 
