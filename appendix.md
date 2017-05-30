@@ -1,6 +1,6 @@
 # All MixPanel Events
 
-All mixpanel events are summarized below. And they are organized in sections consisted with a bold heading indicating in which controller are there these events, and followed with these events groups in this controller. Events are grouped based on the methods or functions they are in. And there usually is one line of text above each group of events indicating which method these events are in, with sometimes another line of description about this method.
+All mixpanel events are summarized below. They are organized in sections which consists with a bold heading, indicating in which controller are there these events, and events groups of this controller. Events are grouped based on the methods or functions they belong to. Usually, there will also be some descriptions about the controller and the method.
 
 ---
 
