@@ -6,16 +6,16 @@
 
 ## Overview
 
-Home View Screen is controlled by `HomeViewController` object in the project and subclass of `ViewController`\(UIViewController with small changes\). `HomeViewController` content view controller and view is actually populated by `ModelViewController` which is the subclass of `GLKViewController` that are responsible for presenting OpenGL ES content. This indicate that the main task for Home View Screen is to present content of 3D model.
+Home View Screen is controlled by `HomeViewController` object which is a subclass of `ViewController`\(UIViewController with small changes\). `HomeViewController`s content view controller and its view are actually populated by `ModelViewController` which is the subclass of `GLKViewController` that are responsible for presenting OpenGL ES content. This indicate that the main task for `HomeViewController` is to present content of 3D model to the user.
 
-From the current pipeline of presenting 3D model, there are two modes of interaction with the avatar in home view screen:
+According to the current pipeline of 3D model, there are two modes of interaction with the avatar in home view screen:
 
 * **Basic interactions with the 3D model of avatar**
   * Touch interactions including scaling, rotation, moving up or down of avatar.
 * **Clothes mode**
 
   * Clothes bar and side bar are shown.
-  * User can chose different garments and try on them on the avatar.
+  * User can chose different garments and try on these garments on the avatar.
   * In the side bar panel user can access the stretching mode which shows the fitness of any garment on the avatar.
 
 **Basic work flow:**
@@ -33,14 +33,14 @@ Here is a general screen of basic screen. There are generally 4 parts of functio
 * **Navigation Bar **
   * Navigation Bar in the top composed of title and a button to show side menu bar.
 * **ModelViewController**
-  * Added as the main view of the HomeViewController itself. 
+  * Added as the main view of the `HomeViewController` itself. 
   * Touch events like pin,rotate and pan are predefined to interact with the avatar.
 * **Side Button Panel**
   * First button to switch to clothes mode
   * Second button to create avatar by measurment 
   * Third button to create a new avatar
 * **Share Button at The Right Bottom Side of The View**
-  * Launch UIActivityViewController for share events
+  * Launch `UIActivityViewController` for share events
 
 ### NavigationBar
 
@@ -54,11 +54,11 @@ NavBar is preset in `viewDidLoad` method. Title view is set to Fitle title theme
 
 ### Side Button Panel
 
-There are three buttons in the side button panel. ClothesButton is bind with `clothesAction` which turns the controller into clothes mode.
+There are three buttons in the side button panel. `clothesButton`  button is bind with `clothesAction` action which turns the controller into clothes mode.
 
-MeasurementsButton is bind with `measurementsAction` which perform a controller transit to `AvatarMeasurementsViewController`
+`measurementsButton` button is bind with `measurementsAction`  action which perform a controller transition to `AvatarMeasurementsViewController`
 
-SettingsButton is bind with `settingsAction` which shows the alert to let the user to confirm to transit  to ChangeInformationViewController to create new avatar.
+ `settingsButton`  button is bind with `settingsAction`  action which shows the alert to let the user to confirm to transit  to ChangeInformationViewController to create new avatar.
 
 ### Share Button
 
