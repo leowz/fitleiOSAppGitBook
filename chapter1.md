@@ -78,7 +78,7 @@ User touch `clothesButton`  button to transit to clothes mode. In clothes mode, 
 
 * **Clothes panel**
 
-  * Three collection views are included, clothes type collection view, clothes collection view, size collection view.
+  * Three collection views are included, `clothesTypeCollectionView` view, `clothesCollectionView` view, `sizeCollectionView` view.
 
 ### Clothes Side Button Panel
 
