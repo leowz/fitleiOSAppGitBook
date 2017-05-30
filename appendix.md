@@ -4,7 +4,7 @@ All mixpanel events are summarized below. They are organized in sections which c
 
 ---
 
-In `HomeViewController` screen when user press the menu button on the Navigation Bar, `MenuViewController` shows up and user could select any button on the controller view to segue to the next controller.
+In `HomeViewController` screen when user presses the menu button on the Navigation Bar, `MenuViewController` shows up. The User could then select any button on the controller view to segue to any of the controller below.
 
 ### ConceptViewController
 
