@@ -1,6 +1,6 @@
 # Home View Controller
 
-`HomeViewController` is the principle stage of the app. It is responsible for presenting the 3D avatar model to the user, interaction with the user and managing garment action for avatar.
+`HomeViewController` is the principle stage of the app. It is responsible for presenting the 3D avatar model to the user, interacting with the user and managing garment action for the avatar.
 
 ---
 
@@ -82,7 +82,7 @@ User touch Clothes Button to transit to clothes mode. In clothes mode, side butt
 
 ### Clothes Side Button Panel
 
-Takeoff clothes button is bind with `takeoffClothes`. When an avatar have a clothes on, this button is enabled and user can take on and off clothes as long as he does not initiate other actions.
+Takeoff clothes button is bind with `takeoffClothes`. When an avatar has a garment on, this button is enabled and user can take on and off clothes as long as he does not initiate other actions.
 
 Stretching map button is bind with `stretchingAction`. When user press this button, the avatar clothes will turn into stretching mode which shows user the comfort information of that clothes.
 
