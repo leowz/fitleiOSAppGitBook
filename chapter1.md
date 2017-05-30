@@ -58,11 +58,11 @@ There are three buttons in the side button panel. `clothesButton`  button is bin
 
 `measurementsButton` button is bind with `measurementsAction`  action which perform a controller transition to `AvatarMeasurementsViewController`
 
- `settingsButton`  button is bind with `settingsAction`  action which shows the alert to let the user to confirm to transit  to ChangeInformationViewController to create new avatar.
+`settingsButton`  button is bind with `settingsAction`  action which shows the alert to let the user to confirm to transit  to `ChangeInformationViewController` to create new avatar.
 
 ### Share Button
 
-Share Button in the right bottom of the view is bind with `shareAction` which launch the `UIActivityViewController`.
+`shareButton` button in the right bottom of the view is bind with `shareAction` action which launch the `UIActivityViewController`.
 
 ---
 
@@ -70,11 +70,11 @@ Share Button in the right bottom of the view is bind with `shareAction` which la
 
 > ![](/assets/Pasted image at 2017_05_12 11_00 AM.png)
 
-User touch Clothes Button to transit to clothes mode. In clothes mode, side button panel at right side of the screen changes to clothes side button panel, with new buttons. Also in this mode, clothes panel in the bottom is enabled.
+User touch `clothesButton`  button to transit to clothes mode. In clothes mode, side button panel at right side of the screen changes to clothes side button panel with new buttons. Also in this mode, clothes panel in the bottom is enabled.
 
 * **Clothes Side Button Panel**
 
-  * For new buttons are enabled. takeoff clothes button, stretching mode button, clothes info button, buy clothes button.
+  * New buttons that are enabled including `takeoffButton` button, `stretchingMapButton` button, `clothesInfoButton` button, `buyClothes` button.
 
 * **Clothes panel**
 
