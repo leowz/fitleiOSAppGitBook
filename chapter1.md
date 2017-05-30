@@ -114,7 +114,7 @@ When user press the clothes collection view item, which is a certain clothes, or
 
 > ![](/assets/Pasted image at 2017_05_10 02_45 PM.png)
 
-Related informations will be shown on the view including size and recommendation size. Try on cloth can be cancelled by press cancel button in the clothes info preview view. Cancel button is bind with `undoSimulation()` and by pressing cancel button, the whole try on pipe line will be cancelled.
+Related informations will be shown on the view including size and recommendation size. Try on cloth can be cancelled by press cancel button in the clothes info preview view. `cancelButton` button is bind with `undoSimulation()` action and by pressing `cancelButton` the whole try on pipe line will be cancelled.
 
 ---
 
