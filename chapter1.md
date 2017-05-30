@@ -82,17 +82,17 @@ User touch `clothesButton`  button to transit to clothes mode. In clothes mode, 
 
 ### Clothes Side Button Panel
 
-Takeoff clothes button is bind with `takeoffClothes`. When an avatar has a garment on, this button is enabled and user can take on and off clothes as long as he does not initiate other actions.
+`takeoffButton` button is bind with `takeoffClothes` action. When an avatar has a garment on, this button is enabled and user can take on and off clothes as long as he does not initiate other clothes actions.
 
-Stretching map button is bind with `stretchingAction`. When user press this button, the avatar clothes will turn into stretching mode which shows user the comfort information of that clothes.
+`stretchingMapButton` button is bind with `stretchingAction` action. When user touches this button, the avatar clothes will turn into stretching mode which shows user the comfort information of that clothes.
 
 > ![](/assets/Pasted image at 2017_05_10 12_32 PM.png)
 
-Clothes info button is bind with `clothInfoAction`. When user press this button, Cloth info view will appear on the screen.
+`clothesInfoButton` button is bind with `clothInfoAction` action. When user presses this button, Cloth info view will appear on the screen.
 
 > ![](/assets/Pasted image at 2017_05_10 02_36 PM.png)
 
-Buy clothes button work the same way as the buy button in Clothes info view does. They are bind to `buyClothAction`. When the clothes currently on the avatar has a URL to the product page, then the button will be enabled and by pressing on the button, a browser will be launched and redirect to the product page on the current clothes on the avatar.
+`buyClothes` button work the same way as the `buyClothes` button in Clothes info view does. They are bind to `buyClothAction` action. When the clothes on the avatar has a URL to a product page, then the button will be enabled and by pressing on the button, a browser will be launched and redirect the user to the product page of the current clothes on the avatar.
 
 ### Clothes Panel
 
