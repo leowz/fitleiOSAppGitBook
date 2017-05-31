@@ -28,11 +28,9 @@ In garment download pipeline, there are additional progress callbacks, compared 
 
 So there are four stages during the download pregress, which is creating, downloading ,unzipping and finished.
 
+**Callback Sequence:**
+
 ![](/assets/flow.png)
 
-![](/assets/table2.png)
-
-
-
-
+**Explanation:**![](/assets/table4.png)
 
