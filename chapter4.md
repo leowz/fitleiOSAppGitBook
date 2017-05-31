@@ -4,6 +4,8 @@ In this controller, user can preview those taken photos to decide whether to cre
 
 ---
 
+## Overview
+
 In `ImagePreviewViewController`, there are three parts of views top view, bottom view and bottom button view.
 
 * **Top View**

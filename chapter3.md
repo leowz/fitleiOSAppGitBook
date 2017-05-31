@@ -4,7 +4,7 @@
 
 ---
 
-## Over View
+## Overview
 
 The relation between `ImageCaptureBisController` and `ImageCaptureOverlayViewController` are tricky and puzzling. We wouldn\`t ask why its was designed that way, as it was designed and implemented by different developer at different time. But what we are sure is that it can be better designed sometimes in the future.
 

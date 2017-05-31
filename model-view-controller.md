@@ -4,7 +4,7 @@ Embedded into the `HomeViewController`, `ModelViewController` is the key to pres
 
 ---
 
-## OverView
+## Overview
 
 We can see and interact with `ModelViewController` through `HomeViewController` since the `ModelViewController` is added to the `HomeViewController`, and the main view, which is the avatar, in `HomeViewController` belongs to the `ModelViewController`.
 
