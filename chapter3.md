@@ -8,7 +8,7 @@
 
 The relation between `ImageCaptureBisController` and `ImageCaptureOverlayViewController` are tricky and puzzling. We wouldn\`t discuss why was it designed that way, as it was implemented by different developers at different times. But what we are sure is that it can and should be better designed sometimes in the future.
 
-In short, `ImageCaptureBisController` present `ImageCaptureOverlayViewController` view by adding its view to BisController\`s view as a subview. And BisController also provide some code to handling photo data for OverlayViewController. It is also responsible for start and stop the shake detection for camera and show permission alert if camera is not permitted by the user.
+In short, `ImageCaptureBisController` present `ImageCaptureOverlayViewController` view by adding its view to BisController\`s view as a subview. And BisController also provide some code to handling data of photos for OverlayViewController. It is also responsible for start and stop the shaking detection for camera and show permission alert if the app has no permission to access camera yet.
 
 The workflow for image capture is simple, when the user finish the tutorial for taking photos or just skip the tutorial, the screen for image capture is shown automatically, and after user start the process of taking photos, all the steps of taking photos will be initiated one by one.
 
