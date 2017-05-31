@@ -24,7 +24,7 @@ There are two scenarios that garment download pipeline are used, when in the `ho
 
 ### Garment Download Progress Callback
 
-We can manage the behavior of UI from different stages of download process, and there are 4 stages of process which we can basically observe and set the callback to some code to execute during certain period of the Garment download process. And basically, there is the some process for avatar download process but there just is not any designed api to set callback closure to execute.
+In garment download pipeline, there are additional progress callbacks, compared with avatar download process. By using those progress callback, we can have an higher level abstraction for the whole process and have an easier control over it. 
 
 So there are four stages during the download pregress, which is creating, downloading ,unzipping and finished.
 
