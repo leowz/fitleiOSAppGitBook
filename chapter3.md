@@ -18,27 +18,27 @@ The workflow for image capture is simple, when the user finishes the tutorial fo
 
 ### START STAGE
 
-The start stage is the stage when the infrastructures for taking photo are set up and the controller wait for user to initiate the taking photo process by pressing the button in the middle of the screen.
+The start stage is the stage when the infrastructure for taking photo is set up and the controller waits for user to initiate the taking photo process by pressing the button in the middle of the screen.
 
-There are 3 group of views on screen that are important. Top Navigation bar control buttons, outline image for front image view and camera button group, and background preview layer.
+There are 3 groups of views on screen that are important. Top Navigation bar control buttons, outline images for front image view and camera button group, and background preview layer.
 
 ![](/assets/Pasted image at 2017_05_17 11_59 AM.png)
 
-* **NavigationBar Control button**
-  * left cancel button to go back to the view controller who presented the current view controller
-  * middle label view to indicate the current stage of the photo taking process
-  * right switch camera button to switch to either front or back camera
-* **Outline image and camera button**
-  * outline image is just an image overlay between the video preview and the camera button, it just serves as an indicator for user to take photo accordingly.
-  * camera button is the control for camera taking photo count down, press this button to start the count down for taking photo instead of photo immediately
-* **Background preview layer**
-  * background preview layer is a CALayer added to the layer of the controller view
+* **Navigation Bar Control button**
+  * Left side `cancelButton` button functions to go back to the view controller who presented the current view controller
+  * Middle label view indicates the current stage of the photo taking process
+  * Right side `switchCameraView` button switches to either front or back camera
+* **Outline Image and Camera Button**
+  * Outline image is just an image overlay between the video preview and the `cameraButton` button, it just serves as an indicator for user to take photo accordingly.
+  * `cameraButton` button is the control for taking photo count down, presses this button to start the count down for taking photo instead of photo immediately
+* **Background Preview Layer**
+  * Background preview layer is a CALayer added to the layer of the controller view
 
 ---
 
 ### FIRST PHOTO
 
-First photo stage is initiated by pressing the camera button in the start stage,  then the camera button  become a count down indicator which start the count down to take photo. The count down interval is set by `photoInterval` property. When count down finishes, `takePhoto1` is called and then second photo stage is initiated.
+First photo stage is initiated by pressing the `cameraButton` button in the start stage,  then the `cameraButton` button become a count down indicator who starts to count down to take photos. The count down interval is set by `photoInterval` property. When count down finishes, `takePhoto1` is called and then second photo stage is initiated. The count down process can be stopped by shake detector. If the process is stopped during any stage it can only be restarted from the first stage.
 
 ![](/assets/Pasted image at 2017_05_17 02_40 PM.png)
 
@@ -62,7 +62,7 @@ In third photo stage, no outline image is shown and when the count down finishes
 
 ### FACE PHOTO
 
-In face photo stage, face outline image is shown and camera button is shown at the bottom of the screen. In this stage, user can only use front camera to take face photo or user can just skip this process. And after taking or skipping face photo, the screen will segue to `ImagePreviewViewController` .
+In face photo stage, face outline image is shown and `cameraButton` button is shown at the bottom of the screen. In this stage, user can only use front camera to take face photo, or user can just skip this process. And after taking or skipping face photo, the controller will segue to `ImagePreviewViewController` .
 
 ![](/assets/Pasted image at 2017_05_17 03_02 PM.png)
 
