@@ -1,6 +1,6 @@
 # WEB SERVICE DOWNLOAD PIPELINE
 
-This chapter is dedicated to the process of OpenGL resource download, which is the download pipeline. And structure of this pipeline is the same for download both garments resource and avatar model resource. Because the Webservice, AvatarManeger and ClothManeger class are too big to make a clear description, we only will talk about the download pipeline which is one of the most important one.
+This chapter is dedicated to the process of Avatar resource download, that is to say, the download pipeline. The structure of this pipeline is very similar for download garments resource and avatar model resource. Since these class Webservice, AvatarManeger and ClothManeger are too big to make a clear description, we only will talk about the download pipeline which is one of the most important one.
 
 ---
 
@@ -10,13 +10,13 @@ Download work flow for downloading avatar resource and garment resource is desig
 
 ### Avatar Download Pipeline Work Flow
 
-Avatar download pipeline is quite similar compared with garment download pipeline. However, there is some differences due to the implementation. They call difference method obviously, however the patterns of the workflow are quite the same.
+Avatar download pipeline is quite similar compared with garment download pipeline. However, there are some differences due to the implementation. They call different methods obviously, otherwise the pattern for each workflow is quite the same.
 
-Note that there are two scenario that user this work flow which is the process of downloading avatar in creating avatar and the process of downloading avatar when user changes avatar and confirm to download. The difference is that for creating process, we need to observe the service and wait before the avatar resources are created before we can download, and for changing avatar, we just download the resource directly.
+Note that there are two scenarios that user use this work flow, that is the process of downloading avatar resource is applied either after user creates an avatar or user changes his avatar. The difference is, in creating process we need to observe the server, by polling, and wait before the avatar resources are created before we can download, in the other hand, in changing avatar we just download these resources directly.
 
 ### ![](/assets/WebService_sharedService_getUserInfoAndDownloadAvatar.png)Garment Download Pipeline Work Flow
 
-There are two places that garment download pipeline are used, when user in the home view screen to try on some garment and when the app is launched and need to download some default garment for the avatar.
+There are two scenarios that garment download pipeline are used, when in the `homeViewController`   user tries on some garments, or when the app is launched and needs to download some default garments for the avatar.
 
 ![](/assets/ClothesManager_sharedManager_getSimulationClothesProgress %282%29.png)
 
@@ -40,8 +40,6 @@ So there are four stages during the download pregress, which is creating, downlo
   * when resource is successfully downloaded, it will then be unzipped on the device and the unzipped files will be saved on a directory of the app. Before the unzipped files will be saved, in the directory, old resource files in the directory will be deleted.
 * finish
   * when finishes unzip process,resource will be loaded automatically and user can perform a series of actions on the UI.
-
-
 
 
 
