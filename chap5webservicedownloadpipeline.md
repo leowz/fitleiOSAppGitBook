@@ -24,22 +24,15 @@ There are two scenarios that garment download pipeline are used, when in the `ho
 
 ### Garment Download Progress Callback
 
-In garment download pipeline, there are additional progress callbacks, compared with avatar download process. By using those progress callback, we can have an higher level abstraction for the whole process and have an easier control over it. 
+In garment download pipeline, there are additional progress callbacks, compared with avatar download process. By using those progress callback, we can have an higher level abstraction for the whole process and have an easier control over it.
 
 So there are four stages during the download pregress, which is creating, downloading ,unzipping and finished.
 
-![](/assets/import1.png)
+![](/assets/flow.png)
 
-* creating
-  * on server side simulation process, if an avatar is not pre simulated, this process will take up to 60s due to the complexity of computation. Else if simulated, this process just conform that the app can just download the resource
-* download
-  * start a download request from the download endpoint to retrieve the avatar model resource. This process might take 2 - 3s if the network is good enough, and might take up to 15s if the network is bad.
-  * when a download is slower then 15s, no matter there is an error or not, the request will be considered a time out error. 
-  * In Garment download context, time out error causes nothing and expect user to cancel download process. In avatar download context, however, an redownload alert will be raised to the user.
-* unzip 
-  * when resource is successfully downloaded, it will then be unzipped on the device and the unzipped files will be saved on a directory of the app. Before the unzipped files will be saved, in the directory, old resource files in the directory will be deleted.
-* finish
-  * when finishes unzip process,resource will be loaded automatically and user can perform a series of actions on the UI.
+![](/assets/table2.png)
+
+
 
 
 
