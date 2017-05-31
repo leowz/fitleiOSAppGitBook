@@ -44,7 +44,7 @@ Here is a general screen of basic screen. There are generally 4 parts of functio
 
 ### NavigationBar
 
-NavBar is preset in `viewDidLoad` method. Title view is set to Fitle title theme and menu button is set to bind `showMenuAction` method in HomeViewController.
+NavBar is preset in `viewDidLoad` method. Title view is set to Fitle title theme and menu button is set to bind `showMenuAction` method in `HomeViewController`.
 
 ### ModelViewController
 
