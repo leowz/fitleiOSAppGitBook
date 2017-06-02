@@ -230,7 +230,7 @@ In `createNewAvatarButtonAction`
 
 ### ChangeInformationVC
 
-This controller is the controller for user to create the first avatar. It only appears when user do not have any avatar.
+This controller is the controller for user to recreate new avatars. 
 
 In `viewDidAppear`
 
