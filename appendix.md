@@ -230,7 +230,7 @@ In `createNewAvatarButtonAction`
 
 ### ChangeInformationVC
 
-This controller is the controller for user to recreate new avatars. 
+This controller is the controller for user to recreate new avatars. However, when user creates his first avatar, the controller will be presented is `SetInformationViewController` and there are not mixpanel events being tracked in this controller.
 
 In `viewDidAppear`
 
